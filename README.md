@@ -1,5 +1,4 @@
 # PASSWORD STRENGTH CHECKER
-    #### Video Demo:  <https://youtu.be/6Mhlrvlke4M>
     #### Description:
 
     ##### Overview
@@ -72,6 +71,7 @@
     It uses only Python's built-in libraries:
     - `random` — for generating random characters.
     - `string` — for easily accessing uppercase and lowercase letters.
+
 
 
 
