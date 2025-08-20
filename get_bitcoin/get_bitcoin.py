@@ -11,7 +11,7 @@ Example: python get_bitcoin.py 1.5
 
 if len(sys.argv) == 2:
         try:
-            x = float(sys.argv[1])  # this will fail if 'cat'
+            btc = float(sys.argv[1])  # this will error if not integer
         except ValueError:
                 print("Command-line argument is not a number")
                 sys.exit(1)
@@ -30,7 +30,7 @@ try:
 
     r= response.json()
     price = float(r["data"]["priceUsd"])
-    total_amount= price * x
+    total_amount= price * btc
     print(f"${total_amount:,.4f}")
 
 except requests.RequestException:
