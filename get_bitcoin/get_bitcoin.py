@@ -25,6 +25,9 @@ try:
     headers = {
        "Authorization": "Bearer f4d76a29555ce4d72db62a17c836319c68a74d60a73309269222d51fbd8e486c"}
     response = requests.get(url, headers=headers)
+
+    #print(json.dumps(response.json(), indent=2)) """"check data location""""
+
     r= response.json()
     price = float(r["data"]["priceUsd"])
     total_amount= price * x
