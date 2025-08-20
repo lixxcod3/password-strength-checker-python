@@ -18,7 +18,7 @@ This project is a simple command-line program that converts a given amount of **
 ## Requirements
 - Python 3.x  
 - `requests` library
-- Login to [CoinCap API](https://coincap.io/) to get authorization code
+- Sign in to [CoinCap Sign-in](https://pro.coincap.io/signin) to get authorization code
 
 Install dependencies with:
 ```bash
@@ -34,3 +34,4 @@ Example:
 python get_bitcoin.py 1.5
 
 ```
+
